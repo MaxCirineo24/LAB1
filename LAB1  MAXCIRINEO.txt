@@ -1,0 +1,174 @@
+
+
+
+
+
+
+
+EJERCICIO 3 
+
+A
+
+i.
+void main() {
+  List<int> numeros = [1, 2, 3, 4, 5];
+  print(numeros);
+ 
+}
+
+
+ii. 
+void main() {
+  List<String> colores = ['rojo', 'verde', 'azul'];
+  print(colores);
+}
+
+
+iii.
+void main() {
+  List<int> numeros = [1, 2, 3, 4, 5];
+  int primerNumero = numeros[0];
+  print(primerNumero);
+}
+
+
+iv.
+
+void main() {
+  List<String> colores = ['rojo', 'verde', 'azul'];
+  String segundoColor = colores[1];
+  print(segundoColor);
+}
+
+
+
+v.
+
+void main() {
+  List<int> numeros = [1, 2, 3, 4, 5];
+  List<String> colores = ['rojo', 'verde', 'azul'];
+  
+  numeros.add(6);
+  colores.add('amarillo');
+  
+  print(numeros);
+  print(colores);
+}
+
+
+
+vi.
+
+
+void main() {
+  List<int> numeros = [1, 2, 3, 4, 5];
+  List<String> colores = ['rojo', 'verde', 'azul'];
+  
+  numeros.add(6);
+  colores.add('amarillo');
+  
+  // Iterar sobre la lista 'numeros' e imprimir cada elemento
+  for (int numero in numeros) {
+    print(numero);
+  }
+  
+  print(colores);
+}
+
+
+
+
+vii.
+
+void main() {
+  List<int> numeros = [1, 2, 3, 4, 5];
+  List<String> colores = ['rojo', 'verde', 'azul', 'amarillo'];
+  
+  numeros.add(6);
+  colores.add('amarillo');
+  
+  print('Números:');
+  print(numeros);
+  print('Colores:');
+  for (String color in colores) {
+    print(color);
+  }
+}
+
+
+
+B
+
+i.
+
+void main() {
+  Map<String, dynamic> persona = {
+    'nombre': 'Juan',
+    'edad': 30,
+    'ciudad': 'Madrid',
+  };
+  
+  print(persona);
+}
+
+
+
+
+ii. 
+
+void main() {
+  Map<String, dynamic> persona = {
+    'nombre': 'Juan',
+    'edad': 30,
+    'ciudad': 'Madrid',
+  };
+
+  String nombre = persona['nombre'];
+  print(nombre);
+}
+
+
+
+iii.
+
+ void main() {
+  Map<String, dynamic> persona = {
+    'nombre': 'Juan',
+    'edad': 30,
+    'ciudad': 'Madrid',
+  };
+
+  int edad = persona['edad'];
+  print(edad);
+}
+
+
+
+iv. 
+
+void main() {
+  Map<String, dynamic> persona = {
+    'nombre': 'Juan',
+    'edad': 30,
+    'ciudad': 'Madrid',
+  };
+
+  persona['edad'] = 35;
+
+  print(persona);
+}
+
+
+v. 
+
+void main() {
+  Map<String, dynamic> persona = {
+    'nombre': 'Juan',
+    'edad': 35,
+    'ciudad': 'Madrid',
+  };
+  persona['profesion'] = 'ingeniero';
+
+  print(persona);
+}
+
